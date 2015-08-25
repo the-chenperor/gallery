@@ -1,0 +1,1 @@
+//this is the gallery2 js file
