@@ -1,1 +1,57 @@
-/*this is the gallery2 css file*/
+/*this is the gallery2 css file for the opening page*/
+h1{
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 130px;
+  letter-spacing: 20px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 200;
+  margin-top: 170px;
+  margin-bottom: 40px;
+}
+
+body{
+  background-color: #e6e6e6;
+/*   background-image:  url('http://orig11.deviantart.net/8333/f/2013/204/d/c/liberate_by_yuumei-d6eruh3.jpg'); */
+  background-color: rgba(255,255,255,.2);
+  background-blend-mode: color;
+}
+
+#buttonContainer{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+
+#button{
+  width: 200px;
+  background-color: transparent;
+  padding: 15px 20px;
+  border: 1px solid rgba(255,255,255,0.65);
+  transition: 0.7s ease;
+  -o-transition: 0.7s ease;
+  -moz-transition: 0.7s ease;
+  -webkit-transition: 0.7s ease;
+}
+
+#button:hover{
+  background-color: rgba(255,255,255,0.65);
+  border 1px solid rgba(255,255,255,1);
+}
+
+a{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+}
+
+a:hover{
+}
