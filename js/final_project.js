@@ -14,14 +14,18 @@ $(document).ready(function() {
   $.getJSON(oembed_url, function(data) {
     console.log(data.url);
     
-    $("body").css("background-image", "url('" + data.url + "')");
+    $(".backgroundImage").css({"background-image": "url('" + data.url + "')", "background-size": "100% auto"}, function(){
+      $(this).fadeIn(1000, "linear", function(){
+        $(this).fadeOut(700, "linear");
+      });
+    });
   });
  };
   
   setInterval(function(){
     setBackgroundPicture(images[Math.floor(Math.random()*(images.length-1))]);
     
-  },2000);
+  },4000);
  
  
  

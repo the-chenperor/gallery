@@ -1,4 +1,22 @@
 /*this is the gallery2 css file for the opening page*/
+html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+/*   background-color: #e6e6e6; */
+/*   background-image:  url('http://orig11.deviantart.net/8333/f/2013/204/d/c/liberate_by_yuumei-d6eruh3.jpg'); */
+  background-color: rgba(255,255,255,.2);
+  background-blend-mode: color;
+  height: 100%;
+  width: 100%;
+    margin: 0;
+  padding: 0;
+}
+
 h1{
   text-transform: uppercase;
   color: #fff;
@@ -6,15 +24,15 @@ h1{
   letter-spacing: 20px;
   font-family: 'Dosis', sans-serif;
   font-weight: 200;
-  margin-top: 170px;
+  padding-top: 170px;
+  margin-top: 0px;
   margin-bottom: 40px;
 }
 
-body{
-  background-color: #e6e6e6;
-/*   background-image:  url('http://orig11.deviantart.net/8333/f/2013/204/d/c/liberate_by_yuumei-d6eruh3.jpg'); */
-  background-color: rgba(255,255,255,.2);
-  background-blend-mode: color;
+.backgroundImage{
+  z-index: -1;
+  width: 100%;
+  height: 100%;
 }
 
 #buttonContainer{
