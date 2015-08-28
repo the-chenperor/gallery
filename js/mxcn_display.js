@@ -53,7 +53,7 @@ function getDeviations(url, limit, start, cacheAge) {
    
    var i;
    for(i=0; i<deviations.length; i++) {
-     var imgURL = "<div> <p> "+ deviations[i]["title"] + "</p> <img src='" + deviations[i]["image"] + "'>" + " </div>";
+     var imgURL = "<div class='parent'> <p> "+ deviations[i]["title"] + "</p> <img src='" + deviations[i]["image"] + "'> <div class='clear'> </div>" + "</div>";
      console.log(imgURL);
      $("body").append(imgURL);  
    };
@@ -96,5 +96,5 @@ function getDeviations(url, limit, start, cacheAge) {
 
 
 $(document).ready(function(){ 
-  getDeviations('http://backend.deviantart.com/rss.xml?q=gallery:yuumei', null, 0, 86400);               
+  getDeviations('http://backend.deviantart.com/rss.xml?q=gallery:mx-cn', null, 0, 86400);               
 });
