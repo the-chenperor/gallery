@@ -34,3 +34,57 @@ p{
   margin: 0px 5px 5px;
   
 }
+
+.header{
+  position: fixed;
+  top: 0px;
+  left: -10px;
+  width: 130%;
+  height: 100px;
+  background-color: #fff;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+h1{
+  color: #000;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 200;
+  font-size: 70px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-left: 35px;
+  margin-top: 8px; 
+  position: fixed;
+}
+
+.back{
+  right: 100px;
+}
+
+.about{
+  right: 20px;
+}
+
+.headernav{
+  color: #c7c7c7;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: fixed;
+  top: 58px;
+  text-decoration: none;
+  padding: 3px 7px;
+  border: 1px solid #c7c7c7;
+  transition: 0.7s ease;
+  -o-transition: 0.7s ease;
+  -moz-transition: 0.7s ease;
+  -webkit-transition: 0.7s ease;
+}
+
+.headernav:hover{
+  background-color: #e9e9e9;
+  border: 1px solid #505050;
+  color: #000;
+}

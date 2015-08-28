@@ -53,7 +53,7 @@ function getDeviations(url, limit, start, cacheAge) {
    
    var i;
    for(i=0; i<deviations.length; i++) {
-     var imgURL = "<div class='parent'> <p> "+ deviations[i]["title"] + "</p> <img src='" + deviations[i]["image"] + "'> <div class='clear'> </div>" + "</div>";
+     var imgURL = "<div class='header'><h1>artist navigation</h1><a href='/index.html' class='headernav back'> back to home</a><a href='/small_desc.html' class='headernav about'>about</a></div><div class='parent'> <p> "+ deviations[i]["title"] + "</p> <img src='" + deviations[i]["image"] + "'> <div class='clear'> </div>" + "</div>";
      console.log(imgURL);
      $("body").append(imgURL);  
    };
